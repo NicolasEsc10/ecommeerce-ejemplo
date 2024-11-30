@@ -1,7 +1,5 @@
 'use client';
-
 import { useProductStore } from '@/app/store/productStore';
-
 const Cart = () => {
   const { cart, incrementQuantity, decrementQuantity, removeFromCart } = useProductStore();
 
